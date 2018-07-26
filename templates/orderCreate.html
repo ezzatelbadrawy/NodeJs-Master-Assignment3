@@ -1,0 +1,51 @@
+<h1>Create An Order</h1>
+<a class="backButton" href="/cart">Back</a>
+<hr />
+
+
+<div class="formWrapper" id="orderCreate">
+    <div class="formError"></div>
+    <div class="inputWrapper">
+      <div class="inputLabel">Card Number</div>
+      <input type="text" name="cardNo" id="cardNo" placeholder="XXXX XXXX XXXX XXXX" />
+    </div>	
+    <div class="inputWrapper">
+      <div class="inputLabel">Brand</div>
+      <select name="cardBrand" id="cardBrand">
+        <option value="tok_visa" selected>Visa</option>
+        <option value="tok_visa_debit">Visa (debit)</option>
+		<option value="tok_mastercard" >Mastercard</option>
+		<option value="tok_mastercard_debit" >Mastercard (debit)</option>
+      </select>
+    </div>
+
+    <div class="inputWrapper">
+      <div style="font-size: large;font-weight: bolde;">Charge Amount $ <span id="chargedAmount" style="font-size: larger;font-weight: bolder;color: green;">0</span></div>
+    </div>
+
+    <div class="inputWrapper ctaWrapper">
+      <button class="cta green" onclick="app.createOrder()">Create Order</button>
+    </div>
+</div>
+
+
+<div class="formProcessing" id="ordProcessing" style="display: none;" >Processing your request, please wait ...</div>
+
+
+<!--------- Modal-Div --------->
+<div id="ordModal" class="orderModal">
+  <!-- Modal content -->
+  <div class="modal-content" >
+	<div class="modal-header">
+		Success
+	</div>
+	<div class="modal-body" >
+		Your order created successfully
+		<br>
+		<span class="modal-span">You will receive email notification soon with order receipt.</span>
+		<br><br>
+		<button class="backButton" onclick="document.getElementById('ordModal').style.display='none'; window.location='/menu';">OK</button>
+	</div>
+  </div>
+</div>
+<!--------- Modal-Div --------->

@@ -1,0 +1,129 @@
+{"menu": {
+    "items": [
+        {
+			"id":1,
+            "name":"TRADITIONAL",
+			"description":"Fresh dough, delicious sauce, 100% real romano and mozzarella cheese.",
+            "availableQuantity": 20,
+            "category":"PIZZA YOUR WAY",
+            "prices":[
+				{"size":"small", "price":20},
+				{"size":"medium", "price":30},
+				{"size":"large", "price":40}
+			],
+			"image":"public/pz1.jpg"
+        },
+        {
+			"id":2,
+            "name":"HOMESTYLE",
+			"description":"A sweeter red sauce with sprinkled romano cheese (No Mozzarella). An 'old Italian favorite.'",
+            "availableQuantity": 15,
+            "category":"PIZZA YOUR WAY",
+            "prices":[
+				{"size":"small", "price":25},
+				{"size":"large", "price":45}
+			],
+			"image":"public/pz2.jpg"
+        },
+        {
+			"id":3,
+            "name":"POORMAN’S",
+			"description":"Vegetable oil, Italian spices, romano and mozzarella cheese. (No red sauce.)",
+            "availableQuantity": 10,
+            "category":"PIZZA YOUR WAY",
+            "prices":[
+				{"size":"small", "price":15},
+				{"size":"medium", "price":35},
+				{"size":"large", "price":50}
+			],
+			"image":"public/pz3.jpg"
+        },
+        {
+			"id":4,
+            "name":"VEGETABLE",
+			"description":"Broccoli, cauliflower and a special blend of spices covered in a delicious white sauce and topped with cheddar and mozzarella.",
+            "availableQuantity": 40,
+            "category":"SPECIALTY PIZZAS",
+            "prices":[
+				{"size":"medium", "price":30},
+				{"size":"large", "price":40}
+			],
+			"image":"public/pz4.jpg"
+        },
+        {
+			"id":5,
+            "name":"TACO",
+			"description":"Mexican-spiced ground beef, light tomato sauce, cheddar and mozzarella. Topped with fresh lettuce and tomatoes.",
+            "availableQuantity": 30,
+            "category":"SPECIALTY PIZZAS",
+            "prices":[
+				{"size":"small", "price":25},
+				{"size":"large", "price":45}
+			],
+			"image":"public/pz5.jpg"
+        },
+        {
+			"id":6,
+            "name":"THE ULTIMATE",
+			"description":"5 Toppings! Pepperoni, sausage, onions, mushrooms and green peppers topped with mozzarella.",
+            "availableQuantity": 20,
+            "category":"SPECIALTY PIZZAS",
+            "prices":[
+				{"size":"large", "price":40}
+			],
+			"image":"public/pz6.jpg"
+        },
+        {
+			"id":7,
+            "name":"TRIPLE CHEESE & BACON",
+			"description":"Crispy bacon tops off a trio of romano, cheddar & mozzarella cheeses.",
+            "availableQuantity": 15,
+            "category":"SPECIALTY PIZZAS",
+            "prices":[
+				{"size":"small", "price":20},
+				{"size":"medium", "price":30},
+				{"size":"large", "price":40}
+			],
+			"image":"public/pz7.jpg"
+        },
+        {
+			"id":8,
+            "name":"MEATBALL",
+			"description":"Lots of delicious meatballs with sauce and mozzarella cheese.",
+            "availableQuantity": 20,
+            "category":"STROMBOLIS",
+            "prices":[
+				{"size":"small", "price":30},
+				{"size":"medium", "price":40},
+				{"size":"large", "price":50}
+			],
+			"image":"public/pz8.jpg"
+        },
+        {
+			"id":9,
+            "name":"MEXICAN",
+			"description":"Spiced beef, chicken, banana peppers, sauce, olives, cheddar and mozzarella.",
+            "availableQuantity": 30,
+            "category":"STROMBOLIS",
+            "prices":[
+				{"size":"small", "price":20},
+				{"size":"medium", "price":30},
+				{"size":"large", "price":40}
+			],
+			"image":"public/pz8.jpg"
+        },		
+        {
+			"id":10,
+            "name":"CHEESE",
+			"description":"Fresh dough stuffed with our famous tomato sauce, romano, mozzarella & 100% real ricotta cheese.",
+            "availableQuantity": 10,
+            "category":"CALZONES",
+            "prices":[
+				{"size":"small", "price":10},
+				{"size":"medium", "price":20},
+				{"size":"large", "price":30}
+			],
+			"image":"public/pz10.jpg"
+        }		
+    ]
+}}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- General Settings -->
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en-us">
+    <base href="{global.baseUrl}" />
+
+    <!-- Meta Tags -->
+    <title>{head.title} | {global.appName}</title>
+    <meta name="description" content="{head.description}">
+
+    <!-- Static Assets -->
+    <link type="image/x-icon" rel="icon" href="public/favicon.ico">
+    <script type="text/javascript" charset="utf-8" src="public/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/app.css" />
+
+  </head>
+  <body class="{body.class}">
+    <!-- Page Wrapper -->
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="header">
+        <!-- Logo -->
+        <a class="logo" href="/">
+          <img src="public/logo.png" alt="Logo" />
+        </a>
+        <!-- Navigation -->
+        <ul class="menu">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li class="loggedOut">
+            <a href="/account/create">Signup</a>
+          </li>
+          <li class="loggedOut">
+            <a href="/session/create">Login</a>
+          </li>
+          <li class="loggedIn">
+            <a href="/menu">Menu</a>
+          </li>
+          <li class="loggedIn">
+            <a href="/account/edit">Account Settings</a>
+          </li>
+          <li class="loggedIn">
+            <a href="#" id="logoutButton">Logout</a>
+          </li>
+          <li class="loggedIn">
+              <a href="/cart" id="cartButton"><img src="public/cart-icon.png" alt="Cart" style="width: 30px; height: 30px; display: inline;vertical-align: middle" />Cart(<span id="cartCounter" style="font-size: larger;font-weight: bolder;color: green" cartItems="0">0</span>)</a>
+          </li>            
+        </ul>
+
+        <div class="clear"></div>
+      </div>
+
+      <!-- Page-Specific Content -->
+      <div class="content">
